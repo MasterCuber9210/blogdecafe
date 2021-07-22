@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+}
+.curso__label {
+    font-family: var(--fuente__heading);
+    font-weight: bold;
+}
+.curso__info {
+    font-weight: normal;
+}
